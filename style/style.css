@@ -20,6 +20,9 @@
   cursor: pointer;
 }
 
+.menu-item{
+  margin-right: 100px;
+}
 .logo:hover{
   color: whitesmoke;
   transition: all 0.5s;
@@ -50,7 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 596px;
+  height: 696px;
   will-change: 100%;
   background-color: rgb(52, 51, 51);
 }
@@ -102,7 +105,8 @@
 #about-heading{
   text-align: center;
   font-size: 50px;
-  margin: 10px;
+  margin: 10px 0px;
+  padding-top: 5px;
 }
 
 .about{
@@ -157,4 +161,160 @@
   cursor: pointer;
   background-color: #05afcd;
   color: black;
+}
+
+/* section part */
+
+#service{
+  background-color: #d5d5d58a;
+  width: 100%;
+  height: 500px;
+}
+
+.section{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 20px;
+}
+
+.box{
+  width: 250px;
+  height: 300px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 4px 4px 15px rgb(22, 22, 22);
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+  text-align: justify;
+  position: relative;
+  border-radius: 10px;
+}
+
+.service > h3 {
+  text-align: center;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  margin: -15px 70px 0px;
+}
+
+.box > h4{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.btn{
+  margin: 8px 90px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #9e9d9d;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: whitesmoke;
+}
+
+/* footer part */
+
+#footer{
+  width: 100%;
+  height: 270px;
+  background-color:rgb(22, 22, 22);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 40px 0px;
+}  
+
+#ks{
+  margin: 10px 20px 10px 0px;
+  text-align: justify;
+  width: 250px;
+  height: 180px;
+}
+
+#ks > h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#support{
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+  cursor: default;
+}
+
+#support > li{
+  padding-bottom: 5px;
+}
+.h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#Contact{
+  width: 210px;
+  height: 120px;
+  margin: 10px;
+}
+
+#Contact > address >p{
+  padding: 3px 0px;
+}
+
+#map{
+  margin: 10px;
+}
+
+/* copyright part */
+#copyright{
+  background-color:rgb(22, 22, 22);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+}
+
+#copyright > hr{
+  margin: auto;
+  width: 80rem;
+}
+
+#copyright > p{
+  padding: 20px;
+  color: red;
+  font-size: 16px;
+}
+
+/* socail-media part */
+#social-icon {
+  background-color:rgb(22, 22, 22);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#social-icon >img{
+  width: 30px;
+  height: 30px;
+  margin: 0px 30px 20px 0px; 
+  transition: all 0.5s;
+}
+
+#social-icon >img:hover{
+  background-color: #2f2e2e;
+  padding: 10px 5px;
+  transition: all 0.5s;
 }
