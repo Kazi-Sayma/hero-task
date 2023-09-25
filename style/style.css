@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ /* navigation part */
+.navbar{
+  background-color: rgb(118, 117, 117);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: -5px;
+}
+
+.logo{
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.logo:hover{
+  color: whitesmoke;
+  transition: all 0.5s;
+}
+
+.items{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.li{
+  margin: 0px 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.li:hover{
+  color: cyan;
+  transition: all 0.5s;
+  background-color: rgb(85, 85, 85);
+}
+/* banner part */
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 596px;
+  will-change: 100%;
+  background-color: rgb(52, 51, 51);
+}
+
+.banner-img{
+  width: 600px;
+  height: 400px;
+  margin: 0px 50px 30px -30px;
+}
+
+.banner-text{
+  justify-content: center;
+  align-items: center;
+  margin: 19px 54px 40px 60px;
+  padding: 20px 20px 40px 10px;
+  color: white;
+}
+
+.banner-text > h3{
+  font-size: 60px;
+  padding: 10px 30px 0px 0px;
+}
+
+.banner-text > p{
+  padding: 0px 20px 10px 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  text-align: justify;
+}
+
+.banner-text > button{
+  padding: 12px 20px;
+  margin: 0px 0px 10px 100px;
+  background-color: #67e9ff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor:pointer;
+}
+
+.banner-text > button:hover{
+  background-color: whitesmoke;
+  transition: all 0.5s;
+}
+
+ /* about section */
+
+#about-heading{
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-img{
+  width: 300px;
+  height: 300px;
+  margin: 20px 30px 20px 50px;
+  padding: 30px;
+}
+
+#about-text{
+  margin: 10px;
+}
+
+#about-text > h3{
+  font-size: 40px;
+  text-align: start;
+  margin: -70px 50px 8px 100px;
+  color: #05afcd;
+}
+
+#b{
+  font-size: 50px;
+  display: inline-block;
+}
+
+#about-text > p{
+  font-size: 16px;
+  text-align: justify;
+  margin: 0px 200px 10px 53px;
+}
+
+/* about button */
+
+#about-text > button{
+  border: none;
+  background-color: #626161;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px 20px 20px 55px;
+}
+
+#about-text > button:hover{
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: #05afcd;
+  color: black;
+}
